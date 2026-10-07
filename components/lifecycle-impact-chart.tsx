@@ -217,7 +217,8 @@ export function LifecycleImpactChart({
         <p className="text-[10px] text-slate-500">
           Case targets: {CASE_METRICS.cycleVendor} → {CASE_METRICS.cycleMvpTarget} ·{" "}
           {CASE_METRICS.savingsPct} savings ({CASE_METRICS.savingsTarget} on{" "}
-          {CASE_METRICS.agencyPlannedYr} planned vendor)
+          {CASE_METRICS.agencyPlannedYr} planned vendor). Illustrative estimate for a
+          fictional brand.
         </p>
       </div>
     </Card>

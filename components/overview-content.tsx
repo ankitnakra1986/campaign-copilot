@@ -64,6 +64,9 @@ export function OverviewContent() {
           Impact
         </p>
         <CaseImpactKpis kpis={kpis} />
+        <p className="mt-2 text-[11px] leading-relaxed text-slate-400">
+          Agency savings are an illustrative estimate for a fictional brand.
+        </p>
       </div>
 
       <div className="mt-4">

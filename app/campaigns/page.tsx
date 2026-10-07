@@ -206,7 +206,7 @@ export default function CampaignsPage() {
         <p className="mt-0.5 text-[12px] leading-relaxed text-blue-800/90">{config.caption}</p>
         <p className="mt-2 text-[11px] font-medium text-blue-700/80">
           {config.agentRole} · {config.throughput} · {config.humanCheckpoints} human gate
-          {config.humanCheckpoints === 1 ? "" : "s"} · {config.costPerCampaign}/campaign
+          {config.humanCheckpoints === 1 ? "" : "s"} · {config.costPerCampaign}/campaign (est.)
         </p>
       </motion.div>
 
@@ -225,6 +225,9 @@ export default function CampaignsPage() {
           </Card>
         ))}
       </motion.div>
+      <p className="mt-2 text-center text-[11px] leading-relaxed text-slate-400">
+        Agency savings and per-campaign cost are illustrative estimates for a fictional brand.
+      </p>
 
       <div className="mt-3">
         <LifecycleImpactChart active={lifecycle} onSelect={setLifecycle} pathname="/campaigns" />
