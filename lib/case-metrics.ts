@@ -3,7 +3,7 @@
  */
 export const CASE_METRICS = {
   agencyPlannedYr: "$500K/yr",
-  savingsTarget: "~$250K/yr",
+  savingsTarget: "~$250K/yr (est.)",
   savingsPct: "50%",
   cycleVendor: "6–12 weeks",
   cycleMvpTarget: "2–5 weeks",

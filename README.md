@@ -2,9 +2,11 @@
 
 **Live demo:** [campaign-copilot-five.vercel.app](https://campaign-copilot-five.vercel.app/welcome)
 
-An AI agent + human workflow for B2C email campaigns. The agent does the grunt work overnight. Humans keep judgment, voice, and go/no-go.
+An AI agent + human workflow that helps a brand's marketing team run email campaigns. The agent does the grunt work overnight. Humans keep judgment, voice, and go/no-go.
 
 Built as a clickable product prototype (Next.js) — not a production ESP. No API keys required.
+
+*All numbers in the demo (e.g. ~$250K/yr agency savings, $1,900 → $180 per campaign) are illustrative estimates for a fictional brand, not real results.*
 
 ---
 
@@ -98,7 +100,7 @@ So I built the loop end to end: proactive brief in Slack, trust checks before a 
 ## Built by
 
 **Ankit Nakra** — Product & AI Leader  
-[LinkedIn](https://linkedin.com/in/ankitnakra) · [GitHub](https://github.com/ankitnakra1986)
+[LinkedIn](https://www.linkedin.com/in/ankitnakra) · [GitHub](https://github.com/ankitnakra1986)
 
 ---
 

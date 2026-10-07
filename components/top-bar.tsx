@@ -140,7 +140,7 @@ export function TopBar() {
           </div>
         </div>
         <p className="text-[10.5px] font-semibold text-blue-600" key={lifecycle}>
-          {config.timeLabel} · {config.costPerCampaign}/campaign · {config.cycleTime} brief-to-sent
+          {config.timeLabel} · {config.costPerCampaign}/campaign (est.) · {config.cycleTime} brief-to-sent
           · {config.memoryCount} memories
         </p>
       </div>

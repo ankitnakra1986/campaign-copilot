@@ -106,7 +106,8 @@ export default function MemoryPage() {
             <b>3 months in</b> or <b>One year in</b> (top right) to preview.
           </p>
           <p className="mt-4 border-t border-slate-100 pt-4 text-[12px] leading-relaxed text-slate-400">
-            As memory compounds, per-campaign cost drops{" "}
+            Illustrative estimate for a fictional brand — as memory compounds, per-campaign
+            cost drops{" "}
             <b className="text-slate-600">{UNIT_ECONOMICS.costDay1}</b> →{" "}
             <b className="text-slate-600">{UNIT_ECONOMICS.costMonth3}</b> →{" "}
             <b className="text-slate-600">{UNIT_ECONOMICS.costYear1}</b>.

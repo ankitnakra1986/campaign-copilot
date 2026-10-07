@@ -75,9 +75,9 @@ export default function WelcomePage() {
         <div className="mt-8">
           <CaseImpactKpis compact />
         </div>
-
         <p className="mt-3 text-center text-[12px] leading-relaxed text-slate-500">
-          Per-campaign cost drops as memory compounds:{" "}
+          Illustrative estimates for a fictional brand: agency savings above, and per-campaign
+          cost as memory compounds —{" "}
           <b className="text-slate-800">{UNIT_ECONOMICS.costDay1}</b> Day 1 →{" "}
           <b className="text-slate-800">{UNIT_ECONOMICS.costMonth3}</b> Month 3 →{" "}
           <b className="text-slate-800">{UNIT_ECONOMICS.costYear1}</b> Year 1

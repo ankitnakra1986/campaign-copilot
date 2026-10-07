@@ -23,6 +23,6 @@ export const LIFECYCLE_ASSUMPTIONS = [
   {
     id: "economics",
     label: "Year 1 unit cost",
-    text: "$180/campaign is a target after ~12 months of memory + eval gates held — not day-one pricing.",
+    text: "Illustrative estimate for a fictional brand. $180/campaign is a target after ~12 months of memory + eval gates held — not day-one pricing.",
   },
 ] as const;
